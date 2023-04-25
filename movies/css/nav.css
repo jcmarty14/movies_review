@@ -1,0 +1,58 @@
+.nav_container {
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+#navbar-logo {
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.nav_menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.nav-link:hover {
+    color: #ff0000;
+}
+
+.nav-link-btn {
+    background-color: red;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.nav-link-btn:hover {
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: solid 1px red;
+    cursor: pointer;
+ 
+}

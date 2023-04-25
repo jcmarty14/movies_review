@@ -1,0 +1,41 @@
+@import url(movies/css/movies.css);
+@import url(movies/css/nav.css);
+@import url(movies/css/signup.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main_page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 150px;
+    color: white;
+    font-weight: 600;
+    cursor: default;
+}
+
+.back_video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    filter: brightness(20%);
+    z-index: -2;
+    
+}
+
+

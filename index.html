@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Movies Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <div class="navbar">
+            <h1 id="navbar-logo">Movies Review</h1>
+            <div class="menu">
+                <span class="bar"></span>
+            </div>
+            <ul class="nav_menu">
+                <li><a href="#" class="nav-link nav-home" id="home">Home</a></li>
+                <li><a href="#movies_container" class="nav-link nav-movies" id="movies">Movies</a></li>
+                <li><a class="nav-link nav-link-btn" id="signUp" onclick="showSignUpForm();">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main page section -->
+    <div class="main_page">
+        
+        <video src="images/video.mp4" muted loop autoplay class="back_video"></video>
+
+        <div class="text">
+            <h1>Movies Review</h1>
+        </div>
+    </div>
+
+    <!-- Movie section -->
+    <div class="movies_container" id="movies_container">
+        <div class="movies_header">
+            <h1>Movies</h1>
+        </div>
+        <div class="movies_content">
+            <div class="movies">
+                <div>
+                    <a href="movies/greenmile.html">
+                        <img class="photo" src="images/greenmile.jpeg">
+                        <div class="caption">
+                            The Green Mile
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="movies">
+                <div>
+                    <a href="movies/fightclub.html">
+                        <img class="photo" src="images/fightclub.jpeg" alt="Fight Club">
+                        <div class="caption">
+                            Fight Club
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="movies">
+                <div>
+                    <a href="movies/shutter.html">
+                        <img class="photo" src="images/shutterisland.jpeg" alt="Shuter Island">
+                        <div class="caption">
+                            Shutter Island
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="movies">
+                <div>
+                    <a href="movies/joker.html">
+                        <img class="photo" src="images/joker.jpeg" alt="Joker">
+                        <div class="caption">
+                            Joker
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="movies">
+                <div>
+                    <a href="movies/shawshank.html">
+                        <img class="photo" src="images/shawshank.jpeg" alt="The Shawshank Redemption">
+                        <div class="caption">
+                            The Shawshank Redemption
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="movies">
+                <div>
+                    <a href="movies/memento.html">
+                        <img class="photo" src="images/memento.jpeg" alt="Memento">
+                        <div class="caption">
+                            Memento
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="signup">
+        <span class="closeBtn">&times;</span>
+        <form>
+            <h1>Sign Up</h1>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter your name" name="name" required>
+    
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter your email" name="email" required>
+    
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter your password" name="password" required>
+    
+            <button type="submit" onclick="validate()">Sign Up</button>
+        </form>
+    
+    </div>
+
+        
+<script src="app.js"></script>
+
+
+</body>
+
+</html>

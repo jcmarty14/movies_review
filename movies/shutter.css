@@ -1,0 +1,64 @@
+@import url(css/nav.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	background: linear-gradient(to right, rgba(0,0,0,0.9),  rgba(0,0,0,0.9)), url(img/bgshutter.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	padding: 0 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+
+iframe{
+	width: 623px;
+	height: 350px;
+	margin-bottom: 1rem;
+}
+.content {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#photo {
+	border:8px solid white;
+	width: 250px;
+	height: 350px;
+	position:relative;
+	margin-bottom: 1rem;
+}
+
+.content h1 {
+	font-weight:bold;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 0.5rem;
+	border-bottom:1px solid rgb(70, 69, 69);
+}
+
+.content h2 {
+	font-weight:bold;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 2rem;
+	border-bottom:1px solid rgb(70, 69, 69);
+}
+
+.content p{
+	font-size: 24px;
+	padding: 5px 550px;
+}
+
+
