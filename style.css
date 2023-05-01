@@ -29,6 +29,12 @@
     cursor: default;
 }
 
+.text h2{
+    font-size: 30px;
+    color: white;
+    cursor: default;
+}
+
 .back_video {
     position: absolute;
     right: 0;
